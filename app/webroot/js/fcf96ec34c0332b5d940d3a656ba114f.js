@@ -1,0 +1,1 @@
+window.addEvent("domready", function (event) {$$('.gallery a.ceraBox').cerabox();});

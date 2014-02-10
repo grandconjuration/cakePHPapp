@@ -1,0 +1,516 @@
+@charset "utf-8";
+
+/* CSS Document */
+html,body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	background-color: #000000;
+	font-family: Tahoma, Geneva, sans-serif;
+	color: #f3f3f3;
+	font-size: 14px;
+}
+
+img {
+	border-style: none;
+}
+blockquote {
+	font-style: italic;
+	background-color: #2E2C2D;
+	padding: 5px;
+}
+
+body#news a#nieuws_link_dark, 
+body#news a#nieuws_link, 
+body#shows a#shows_link_dark, 
+body#shows a#shows_link, 
+body#band a#band_link_dark,
+body#band a#band_link,
+body#media a#media_link_dark,
+body#media a#media_link,	
+body#contact a#contact_link_dark,
+body#contact a#contact_link	
+	{
+	background-position: 0 -35px;
+}
+
+#media_submenu.music a#music_link_dark,
+#media_submenu.music a#music_link,	
+#media_submenu.videos a#videos_link,
+#media_submenu.videos a#videos_link_dark,	
+#media_submenu.photos a#photos_link_dark,
+#media_submenu.photos a#photos_link	
+	{
+	background-position: 0 -15px;
+}
+
+
+#menu ol li, #media_submenu ol li {
+	list-style-type: none;
+}
+
+#menu ol, #media_submenu ol {
+	padding: 0px;
+	margin: 0px;
+}
+
+#container {
+	position: relative; /* needed for footer positioning*/
+	width: 1020px;
+	margin: 0 auto; /* center, not in IE5 */
+	height: auto !important; /* real browsers */
+	height: 100%; /* IE6: treaded as min-height*/
+	min-height: 100%; /* real browsers */
+	background-image: url(../img/Background-contentwrapper.jpg);
+	background-repeat: repeat-y;
+}
+
+#header {
+	height: 190px;
+	width: 1020px;
+	background-image: url(../img/Header.jpg);
+}
+
+#header #twitter {
+	height: 30px;
+	width: 29px;
+	position: relative;
+	background-image: url(../img/Twitter_both.jpg);
+	left: 905px;
+	top: 159px;
+	float: left;
+}
+
+#header #twitter:hover,#header #facebook:hover {
+	background-position: 0 -30px;
+}
+
+#header #facebook {
+	height: 29px;
+	width: 30px;
+	position: relative;
+	left: 905px;
+	top: 159px;
+	float: left;
+	background-image: url(../img/Facebook_both.jpg);
+}
+
+#footer {
+	position: relative;
+	width: 100%;
+	bottom: 0; /* stick to bottom */
+	clear: both;
+}
+
+#footer #footer_text {
+	margin: 0 auto;
+	width: 578px;
+	padding-top: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 10px;
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-top-color: #202121;
+	font-size: 11px;
+}
+
+#contentcontainer {
+	min-height: 446px;
+	width: 578px;
+	float: left;
+	margin: 0;
+}
+
+#content {
+	min-height: 440px;
+	width: 578px;
+	float: left;
+	
+}
+
+#tekst {
+	min-height: 100px;
+	width: 578px;
+	float: left;	
+	padding-top: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 30px;
+	text-align: justify;	
+	position: relative;
+	z-index: 2;
+}
+
+#beforeContent {
+	min-height: 22px;
+	width: 578px;
+	float: left;
+	
+}
+
+#media_submenu {
+	width: 508px;
+	min-height: 22px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	padding-left: 100px;
+	padding-right: 30px;
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-top-color: #202121;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #202121;
+}
+
+#content-wrapper {
+	width: 1020px;
+	min-height: 446px;
+	background-image: url(../img/Background-contentwrapper.jpg);
+	background-repeat: repeat-y;
+}
+
+#wing_links {
+	width: 191px;
+	height: 446px;
+	background-image: url(../img/Menu_links.jpg);
+	float: left;
+}
+
+#wing_rechts {
+	width: 191px;
+	height: 446px;
+	background-image: url(../img/Menu_rechts.jpg);
+	float: right;
+}
+
+.pageHeader {
+	margin: 20px 30px;
+	float: right;
+}
+
+#news_header {
+	background-image: url(../img/News_header.jpg);
+	height: 22px;
+	width: 205px;
+	margin-top: 40px;
+}
+
+#shows_header {
+	background-image: url(../img/Shows_header.jpg);
+	height: 22px;
+	width: 211px;
+	margin-top: 40px;
+}
+
+#band_header {
+	background-image: url(../img/Band_header.jpg);
+	height: 256px;
+	width: 510px;
+	padding: 0px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+#media_header {
+	min-height: 22px;
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 43px;
+}
+
+#contact_header {
+	background-image: url(../img/Contact_header.jpg);
+	height: 22px;
+	width: 245px;
+	margin-top: 40px;
+}
+
+#tekst {
+	width: 100%;
+	clear: both;
+}
+
+#menu {
+	width: 1020px;
+	height: 35px;
+}
+
+#menu_rest {
+	height: 35px;
+	width: 269px;
+	background-image: url(../img/Tussenstukjes/Achtergrond.jpg);
+	background-repeat: repeat-x;
+	float: left;
+}
+
+#menu #Stuk_1 {
+	width: 49px;
+	height: 35px;
+	background-image: url(../img/Tussenstukjes/Stukje_1.jpg);
+	float: left;
+}
+
+#menu #Stuk_2 {
+	width: 97px;
+	height: 35px;
+	background-image: url(../img/Tussenstukjes/Stukje_2.jpg);
+	float: left;
+}
+
+#menu #Stuk_3 {
+	height: 35px;
+	width: 83px;
+	background-image: url(../img/Tussenstukjes/Stukje_3.jpg);
+	float: left;
+}
+
+#menu #news_link {
+	width: 102px;
+	height: 35px;
+	float: left;
+}
+
+#menu #nieuws_link {
+	display: block;
+	width: 102px;
+	height: 35px;
+	background-image: url(../img/News_both.jpg);
+	float: left;
+}
+
+#menu #nieuws_link:hover {
+	background-position: 0 -35px;
+}
+
+.button span {
+	position: absolute;
+	top: -999em;
+}
+
+#menu #shows_link {
+	display: block;
+	height: 35px;
+	width: 123px;
+	background-image: url(../img/Shows_both.jpg);
+	float: left;
+}
+
+#menu #shows_link:hover {
+	background-position: 0 -35px;
+}
+
+#menu #band_link {
+	display: block;
+	width: 107px;
+	height: 35px;
+	background-image: url(../img/Band_both.jpg);
+	float: left;
+}
+
+#menu #band_link:hover {
+	background-position: 0 -35px;
+}
+
+#menu #media_link {
+	display: block;
+	width: 119px;
+	height: 35px;
+	background-image: url(../img/Media_both.jpg);
+	float: left;
+	position: relative;
+	left: 88px;
+}
+
+#menu #media_link:hover {
+	background-position: 0 -35px;
+}
+
+#music_link {
+	display: block;
+	width: 87px;
+	height: 15px;
+	background-image: url(../img/Music_both.jpg);
+	float: left;
+}
+
+#music_link:hover {
+	background-position: 0 -15px;
+}
+
+#videos_link {
+	margin-left: 75px;
+	display: block;
+	width: 102px;
+	height: 15px;
+	background-image: url(../img/Videos_both.jpg);
+	float: left;
+}
+
+#videos_link:hover {
+	background-position: 0 -15px;
+}
+
+#photos_link {
+	margin-left: 75px;
+	display: block;
+	width: 107px;
+	height: 15px;
+	background-image: url(../img/Photos_both.jpg);
+	float: left;
+}
+
+#photos_link:hover {
+	background-position: 0 -15px;
+}
+
+#menu #contact_link {
+	display: block;
+	height: 35px;
+	width: 156px;
+	background-image: url(../img/Contact_both.jpg);
+	float: left;
+}
+
+#menu #contact_link:hover {
+	background-position: 0 -35px;
+}
+
+span.hide {
+	display: none;
+}
+
+a {
+	outline: 0;
+	color: white;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+#newsTable,#showsTable {
+	width: 100%;
+}
+
+#showsTable th {
+	color: #555555;
+	padding: 5px;
+	text-align: left;
+}
+#showsTable td {
+	padding: 5px;
+}
+
+#newsTable a:link {
+	color: white;
+	text-decoration: none;
+}
+
+#newsTable a:visited {
+	color: white;
+}
+
+#newsTable a:hover {
+	
+}
+
+.newsTitle {
+	width: 75%;
+	padding: 10px;
+	padding-left: 50px;
+	font-size: 15px;
+}
+
+h1,h1 a {
+	font-size: 16px;
+}
+
+h2,h2 a {
+	font-size: 14px;
+}
+
+.newsContent {
+	padding: 10px;
+	padding-top: 20px;
+	text-align: justify;
+	font-size: 14px;
+}
+
+.newsBorder {
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #202121;
+	height: 30px;
+	width: 75%;
+	margin: 0 auto;
+}
+.border {
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #202121;
+	height: 30px;
+	margin: 0 auto;
+}
+
+.showsBorder {
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #202121;
+	width: 100%;
+}
+
+table.styled {
+	width: 100%;
+	border: 1px solid black;
+	background-color: #202121;
+	border-collapse: collapse;
+}
+
+table.styled th, table.styled td {
+	border: 2px solid black;
+	padding: 5px;
+}
+
+.gallery, .video_gal, .music_gal {
+	margin-top: 30px;
+}
+
+.small {
+	font-size: 12px;
+	margin-top: 10px;
+}
+
+
+
+table.photos {
+	width: 100%;
+	border: 1px solid black;
+	background-color: #202121;
+	border-collapse: collapse;	
+}
+
+table.photos th, table.photos td {
+	border: 2px solid black;
+	padding: 5px;
+	text-align: center;
+}
+
+
+#bandTable {
+	width: 510px;
+	margin-bottom: 20px;
+	margin-left: 70px;
+	padding: 0px;
+}
+
+#bandTable td {
+	width: 127px;
+	padding: 0px;
+	text-align: center;
+}
+
+#bandTable .role {
+	color: #555555;
+}

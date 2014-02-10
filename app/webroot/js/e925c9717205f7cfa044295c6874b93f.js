@@ -1,0 +1,2 @@
+window.addEvent("domready", function (event) {new DatePicker('.demo_dashboard', { pickerClass: 'datepicker_dashboard', timePicker: true, inputOutputformat: 'H:i:s d-m-Y', 'format': 'H:i:s d-m-Y', 		days: ['Zondag', 'Maandag', 'Dinsdag', 'Woensdag', 'Donderdag', 'Vrijdag', 'Zaterdag'],
+		months: ['Januari', 'Februari', 'Maart', 'April', 'Mei', 'Juni', 'Juli', 'Augustus', 'September', 'Oktober', 'November', 'December']});});

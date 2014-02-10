@@ -1,0 +1,1 @@
+<?php echo $this->Html->link('Terug naar post-overzicht', array('controller' => 'Posts', 'action' => 'admin')); ?>

@@ -1,0 +1,1 @@
+<?php echo $this->Html->link('Terug naar gebruiker-overzicht', array('controller' => 'Users', 'action' => 'index')); ?>

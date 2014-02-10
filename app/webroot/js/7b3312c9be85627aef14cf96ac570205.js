@@ -1,0 +1,1 @@
+$$('.gallery a.ceraBox').cerabox();

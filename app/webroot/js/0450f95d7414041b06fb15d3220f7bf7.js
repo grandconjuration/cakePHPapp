@@ -1,0 +1,1 @@
+window.addEvent("domready", function (event) {new DatePicker('.demo_dashboard', { pickerClass: 'datepicker_dashboard' });});

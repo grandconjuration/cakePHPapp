@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:media="http://search.yahoo.com/mrss/" VERSION="2.0">
+  <channel>
+    <title>Demo</title>
+	<item>
+      <title>Tideland</title>
+      <pubDate></pubDate>
+      <media:content url="music/Demo/Tideland.mp3" />
+    </item>
+	<item>
+      <title>A moment</title>
+      <pubDate></pubDate>
+      <media:content url="music/Demo/A Moment.mp3" />
+    </item>	
+
+  </channel>
+</rss>
